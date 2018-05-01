@@ -1,30 +1,23 @@
-var friendsListArray =[
+var friendsListArray = [
     {
         name: "lacie",
-        image: ,
-        scores: []
-
-    },
-    {
-        name: "Suzy Q",
-        image: ,
-        scores: []
-
-    },
-    {
-        name: "",
-        image: ,
-        scores: []
-
-    },
-    {
-        name: "Robin Hood",
-        image: ,
-        scores: []
+        scores: [
+        "4",
+         "5",
+         "5",
+        "2",
+        "4",
+        "5",
+        "4",
+         "4",
+         "3",
+         "4"
+        ]
 
     }
-];
-module.exports = friendsListArray;
+    
+    
+]
 
 
 

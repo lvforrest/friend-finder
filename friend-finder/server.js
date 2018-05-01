@@ -5,10 +5,11 @@ var bodyParser = require ("body-parser");
 var app = express();
 var PORT = process.env.PORT || 3000;
 
+app.get("api/friends");
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({extended:true}));
 app.use(bodyParser.text());
-// 
+
 require("./app/routing/api.js")(app);
 require("./app/routing/html.js")(app);
 
